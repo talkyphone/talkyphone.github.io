@@ -1,0 +1,407 @@
+/*
+THEME NAME: DEVOX
+AUTHOR: ARIN YAZILIM
+*/
+
+/*----------------
+GENERAL SETTINGS
+-----------------*/
+body {
+	/*font-family: 'Montserrat', sans-serif;*/
+   /* font-size: 13px;*/
+    overflow-x: hidden;
+    color: #868f9b;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    color: #2a2a2a;
+}
+
+h1 {
+    font-size: 54px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 12px;
+}
+h6 {
+    font-size: 11px;
+}
+
+a{
+    color: #3ddc84;
+    text-decoration: none;
+    transition: .2s opacity;
+    font-size: 16px;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color: #3ddc84;
+}
+
+.main-color {
+    color: #3ddc84;
+}
+
+.white-text {
+    color: #fff;
+}
+
+
+::moz-selection {
+    background-color: #3ddc84;
+    color: #fff;
+}
+
+::selection {
+    background-color: #3ddc84;
+    color: #fff;
+} 
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Section Properties */
+
+section {
+    position: relative;
+}
+
+.md-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-header {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-header .title {
+    text-transform: capitalize;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: #3ddc84;
+    margin: 20px auto 0;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+.navbar-brand {
+	transition: all .5s;
+}
+
+.navbar-brand:hover {
+	color: #3ddc84!important;
+}
+
+#mainNav {
+	background-color: transparent;
+}
+
+nav.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar-container.shrink {
+    padding: 0;
+}
+
+#mainNav .navbar-toggler {
+	font-size: 12px;
+	right: 0;
+	padding: 13px;
+	text-transform: uppercase;
+	color: white;
+	border: 0;
+	background-color: #3ddc84;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+	font-size: 14px;
+	font-weight: 400;
+	padding: 12px 10px;
+	letter-spacing: 1px;
+	color: white;
+	transition: all .5s;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+	color: #3ddc84;
+}
+
+nav.shrink {
+    background-color: #3ddc84!important;
+}
+
+
+.navbar-brand.shrink,
+.navbar-container.shrink,
+.navbar.fixed-top.shrink,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+
+#hero {
+	text-align: center;
+	color: white;
+	background-color: #2196F3;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+}
+
+#hero .container {
+	display: table;
+	height: 100vh;
+}
+
+#hero .intro-text {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#hero .intro-heading {
+	font-size: 50px;
+	line-height: 50px;
+	margin-bottom: 25px;
+	font-weight: 200;
+}
+
+#hero .intro-heading span {
+	color: #e74c3c;
+	font-size: 62px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Buttons */
+
+.main-btn, .white-btn {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 20px;
+    border: 2px solid transparent;
+    transition: .2s opacity;
+    -webkit-transition: .2s opacity;
+}
+
+.main-btn {
+    background-color: #3ddc84;
+    color: #fff;
+}
+
+.main-btn:hover, .main-btn:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color:black;
+}
+
+.white-btn {
+    background-color: #fff;
+    color: #3ddc84;
+}
+
+.main-btn:hover, .white-btn:hover {
+    opacity: .8;
+}
+
+/* ---------------------------
+# Statement Section
+-----------------------------*/
+
+#statement {
+    background-color:#ff7547;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#statement h4 {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #2a2a2a;
+}
+
+.footer-follow {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.footer-follow li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 15px
+}
+
+.footer-follow i {
+	color: #fff;
+}
+
+.footer-follow li a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.footer-copyrights p{
+	text-align: center;
+	font-size: 14px;
+	margin: 0;
+	text-transform: uppercase;
+
+}
+
+/* ============================
+PAGE HEADER
+============================== */
+
+.page-image {
+	display: table;
+	width: 100%;
+
+}
+.page-image-blue {
+    background-color: #2196F3;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    
+}
+
+.page-title {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    font-size: 50px;
+	line-height: 50px;
+	margin-bottom: 25px;
+	font-weight: 200;
+}
+
+/* ============================
+CONTACT SECTION
+============================== */
+
+.page-image-contact {
+    background: linear-gradient( rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url("../img/contactBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    
+}
+
+#contact {
+	background-color: #f2f2f2;
+	background-image: url("../img/map-image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#contact .form-group {
+	margin-bottom: 25px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+	padding: 20px;
+}
+
+#contact .form-group input.form-control {
+	height: auto;
+}
+
+#contact .form-group textarea.form-control {
+	height: 248px;
+}
+
+#contact .form-control:focus {
+	border-color: #e74c3c;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#contact::-webkit-input-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+}
+
+#contact:-moz-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+}
+
+#contact::-moz-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+}
+
+#contact:-ms-input-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+}
+
+#contact .btn-contact {
+	background-color: #e74c3c;
+	color: #fff;
+}
+
+#contact .btn-contact:hover {
+	background-color: #fff;
+	color: #e74c3c;
+}
+
+.markets {
+  display: flex;
+}
+.market {
+  padding: 1%
+}
